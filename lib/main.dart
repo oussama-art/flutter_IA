@@ -1,20 +1,26 @@
-import 'dart:async';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/login.dart';
 import 'firebase_options.dart'; // Ensure this file exists and is correctly configured
+import 'package:flutter/foundation.dart' show kIsWeb; // Import kIsWeb
 
-Future<void> main() async {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  try {
-    // Initialize Firebase with options from firebase_options.dart
-    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-    runApp(const MyApp());
-  } catch (e) {
-    // Print any error that occurs during Firebase initialization
-    print("Error initializing Firebase: $e");
+  
+  // Initialize Firebase based on platform
+  if (kIsWeb) {
+    // Code for web platform
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } else {
+    // Code for Android or other platforms (iOS, etc.)
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
   }
+
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
