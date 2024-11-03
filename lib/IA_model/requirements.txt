@@ -1,0 +1,22 @@
+# requirements.txt
+# This file lists the dependencies for the Flask application utilizing a Segformer model for semantic segmentation.
+# 
+# Flask is a micro web framework for Python.
+# flask==2.3.2: The web framework used for building the API.
+# 
+# Flask-CORS is an extension for Flask that allows Cross-Origin Resource Sharing (CORS).
+# flask-cors==3.0.10: Enables CORS support for your Flask application, allowing it to accept requests from different domains.
+# 
+# Transformers is a library for state-of-the-art Natural Language Processing (NLP).
+# transformers==4.30.0: Provides pre-trained models for various tasks, including semantic segmentation.
+# 
+# PyTorch is an open-source machine learning framework.
+# torch==2.5.1: The core library used for tensor computations and model training/inference.
+# 
+# Pillow is a Python Imaging Library that adds image processing capabilities.
+# Pillow==9.5.0: Used for opening, manipulating, and saving various image file formats.
+# 
+# NumPy is a library for numerical computing in Python.
+# numpy==1.24.3: Provides support for large multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
+# 
+# This application is designed to accept image uploads and return predictions based on the Segformer model.
