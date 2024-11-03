@@ -6,8 +6,7 @@ This Flutter application implements an AI model for various tasks. The project s
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - AI model integration for [specific use case]
@@ -29,6 +28,20 @@ To get started with this project, ensure you have Flutter installed on your mach
   flutter pub get
   
 4.Run the application
+
+## Installation
+# Utilisateur 1:
+login : oussama@gmail.com   
+password : oussama123   
+
+# Utilisateur 2:
+login : ahmed@gmail.com   
+password :ahmed159
+
+
+
+
+
 
 
 
