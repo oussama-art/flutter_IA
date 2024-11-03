@@ -1,16 +1,36 @@
-# flutter_application_1
+# Flutter IA Application
 
-A new Flutter project.
+This Flutter application implements an AI model for various tasks. The project structure is organized under the `lib/IA_model` directory, which contains the core AI functionalities.
 
-## Getting Started
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-This project is a starting point for a Flutter application.
+## Features
+- AI model integration for [specific use case]
+- Responsive UI
+- [Other notable features]
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To get started with this project, ensure you have Flutter installed on your machine. Then follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/oussama-art/flutter_IA.git
+   
+2. Clone the repository:
+   cd flutter_IA
+   
+3.Install the dependencies:
+  flutter pub get
+  
+4.Run the application
+
+
+
+
+
